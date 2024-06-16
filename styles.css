@@ -132,17 +132,23 @@
 
   #historia{
     border: 1px none;
-    min-height: 500px;
+    min-height: 1000px;
     width: 100%;
     text-align: center;
     justify-content: center;
     display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .texto-historia{
-    padding: 0px;
+    padding: 50px;
     margin: 0px;
     align-items: center;
+    text-align: center;
+    justify-content: center;
+   font-weight: bold;
+   font-size: large;
   }
 
   #fotos{
@@ -152,9 +158,11 @@
     text-align: center;
     justify-content: center;
     display: block;
+    padding-bottom: 50px;
   }
 
   #mapa{
+    padding-top: 5%;
     border: 1px none;
     height: 100%;
     width: 100%;
@@ -162,16 +170,22 @@
     justify-content: center;
     display: block;
   }
+
+#map{
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
   .fachada{
     align-items: center;
     justify-content: center;
+    padding: 50px;
   }
 
   .fachada1{
     max-width: 550px;
     max-height: 550px;
-    align-items: center;
-    align-content: center;
   }
 
   .relogios{
@@ -182,11 +196,15 @@
   }
 
   .rodape{
+    padding-top: 200px;
     height: 70px;
     width: 100%;
     display: block;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     text-justify: center;
+    bottom: 20px;
   }
 
   .rodape1{
@@ -195,3 +213,5 @@
     text-align: center;
     text-justify: center;
   }
+
+  

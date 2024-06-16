@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.formulario{
+    width: 100%;
+    height: 600px;
+    margin-top: 25px;
+}
+
+form{
+   padding: 10px;
+   width: 50%;
+   margin: 0 auto;
+   background-color: rgba(192, 185, 185, 0.836);
+   box-shadow: 0 6px 8px #999;
+  }
+
+  input, textarea{
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 1em;
+    font: 1em sans-serif;
+  }
+
+  label{
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: inline-block;
+  }
+
+  button{
+    background-color: white;
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    color: goldenrod;
+    font-weight: bold;
+    font-size: large;
+    padding: 10px;
+    align-items: center;
+  }
+
+  button:hover{
+    background-color: goldenrod;
+    color: silver;
+    border: 1px solid silver;
+    cursor: pointer;
+  }
+
+  input:focus, textarea:focus{
+    border-color: rgb(59, 20, 231) !important;
+  }
+
+  input:valid, textarea:valid{
+    border-color: gold;
+  }
+
+  input:invalid, textarea:invalid{
+    border-color: red;
+  }
+
+  @media screen and (max-width: 768px) {
+    form{
+        width: 100%;
+    }
+    button{
+        width: 100%;
+    }
+  }
+
+  .redes{
+    text-align: center;
+  }
+
+  #socialm{
+    bottom: 100px;
+  }
+
+  .social{
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .social a{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background: goldenrod;
+    color: white;
+    margin: 0 3px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    font-size: 23px;
+    text-decoration: none;
+  }
+
+  .social a:hover{
+    background: silver;
+  }
+
+  .social a i{
+    transition: 0.5s all;
+  }
+
+  .social a:hover > i{
+    transform: scale(1.4) rotate(26deg);
+  }
